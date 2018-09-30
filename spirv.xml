@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="SPIR-V" ext="spvdis" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="yes" Keywords2="yes" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00; 01 02 03&quot; 04&quot;</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">=</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">OpNop OpUndef OpSourceContinued OpSource OpSourceExtension OpName OpMemberName OpString OpLine OpExtension OpExtInstImport OpExtInst OpMemoryModel OpEntryPoint OpExecutionMode OpCapability OpTypeVoid OpTypeBool OpTypeInt OpTypeFloat OpTypeVector OpTypeMatrix OpTypeImage OpTypeSampler OpTypeSampledImage OpTypeArray OpTypeRuntimeArray OpTypeStruct OpTypeOpaque OpTypePointer OpTypeFunction OpTypeEvent OpTypeDeviceEvent OpTypeReserveId OpTypeQueue OpTypePipe OpTypeForwardPointer OpConstantTrue OpConstantFalse OpConstant OpConstantComposite OpConstantSampler OpConstantNull OpSpecConstantTrue OpSpecConstantFalse OpSpecConstant OpSpecConstantComposite OpSpecConstantOp OpFunction OpFunctionParameter OpFunctionEnd OpFunctionCall OpVariable OpImageTexelPointer OpLoad OpStore OpCopyMemory OpCopyMemorySized OpAccessChain OpInBoundsAccessChain OpPtrAccessChain OpArrayLength OpGenericPtrMemSemantics OpInBoundsPtrAccessChain OpDecorate OpMemberDecorate OpDecorationGroup OpGroupDecorate OpGroupMemberDecorate OpVectorExtractDynamic OpVectorInsertDynamic OpVectorShuffle OpCompositeConstruct OpCompositeExtract OpCompositeInsert OpCopyObject OpTranspose OpSampledImage OpImageSampleImplicitLod OpImageSampleExplicitLod OpImageSampleDrefImplicitLod OpImageSampleDrefExplicitLod OpImageSampleProjImplicitLod OpImageSampleProjExplicitLod OpImageSampleProjDrefImplicitLod OpImageSampleProjDrefExplicitLod OpImageFetch OpImageGather OpImageDrefGather OpImageRead OpImageWrite OpImage OpImageQueryFormat OpImageQueryOrder OpImageQuerySizeLod OpImageQuerySize OpImageQueryLod OpImageQueryLevels OpImageQuerySamples OpConvertFToU OpConvertFToS OpConvertSToF OpConvertUToF OpUConvert OpSConvert OpFConvert OpQuantizeToF16 OpConvertPtrToU OpSatConvertSToU OpSatConvertUToS OpConvertUToPtr OpPtrCastToGeneric OpGenericCastToPtr OpGenericCastToPtrExplicit OpBitcast OpSNegate OpFNegate OpIAdd OpFAdd OpISub OpFSub OpIMul OpFMul OpUDiv OpSDiv OpFDiv OpUMod OpSRem OpSMod OpFRem OpFMod OpVectorTimesScalar OpMatrixTimesScalar OpVectorTimesMatrix OpMatrixTimesVector OpMatrixTimesMatrix OpOuterProduct OpDot OpIAddCarry OpISubBorrow OpUMulExtended OpSMulExtended OpAny OpAll OpIsNan OpIsInf OpIsFinite OpIsNormal OpSignBitSet OpLessOrGreater OpOrdered OpUnordered OpLogicalEqual OpLogicalNotEqual OpLogicalOr OpLogicalAnd OpLogicalNot OpSelect OpIEqual OpINotEqual OpUGreaterThan OpSGreaterThan OpUGreaterThanEqual OpSGreaterThanEqual OpULessThan OpSLessThan OpULessThanEqual OpSLessThanEqual OpFOrdEqual OpFUnordEqual OpFOrdNotEqual OpFUnordNotEqual OpFOrdLessThan OpFUnordLessThan OpFOrdGreaterThan OpFUnordGreaterThan OpFOrdLessThanEqual OpFUnordLessThanEqual OpFOrdGreaterThanEqual OpFUnordGreaterThanEqual OpShiftRightLogical OpShiftRightArithmetic OpShiftLeftLogical OpBitwiseOr OpBitwiseXor OpBitwiseAnd OpNot OpBitFieldInsert OpBitFieldSExtract OpBitFieldUExtract OpBitReverse OpBitCount OpDPdx OpDPdy OpFwidth OpDPdxFine OpDPdyFine OpFwidthFine OpDPdxCoarse OpDPdyCoarse OpFwidthCoarse OpEmitVertex OpEndPrimitive OpEmitStreamVertex OpEndStreamPrimitive OpControlBarrier OpMemoryBarrier OpAtomicLoad OpAtomicStore OpAtomicExchange OpAtomicCompareExchange OpAtomicCompareExchangeWeak OpAtomicIIncrement OpAtomicIDecrement OpAtomicIAdd OpAtomicISub OpAtomicSMin OpAtomicUMin OpAtomicSMax OpAtomicUMax OpAtomicAnd OpAtomicOr OpAtomicXor OpPhi OpLoopMerge OpSelectionMerge OpLabel OpBranch OpBranchConditional OpSwitch OpKill OpReturn OpReturnValue OpUnreachable OpLifetimeStart OpLifetimeStop OpGroupAsyncCopy OpGroupWaitEvents OpGroupAll OpGroupAny OpGroupBroadcast OpGroupIAdd OpGroupFAdd OpGroupFMin OpGroupUMin OpGroupSMin OpGroupFMax OpGroupUMax OpGroupSMax OpReadPipe OpWritePipe OpReservedReadPipe OpReservedWritePipe OpReserveReadPipePackets OpReserveWritePipePackets OpCommitReadPipe OpCommitWritePipe OpIsValidReserveId OpGetNumPipePackets OpGetMaxPipePackets OpGroupReserveReadPipePackets OpGroupReserveWritePipePackets OpGroupCommitReadPipe OpGroupCommitWritePipe OpEnqueueMarker OpEnqueueKernel OpGetKernelNDrangeSubGroupCount OpGetKernelNDrangeMaxSubGroupSize OpGetKernelWorkGroupSize OpGetKernelPreferredWorkGroupSizeMultiple OpRetainEvent OpReleaseEvent OpCreateUserEvent OpIsValidEvent OpSetUserEventStatus OpCaptureEventProfilingInfo OpGetDefaultQueue OpBuildNDRange OpImageSparseSampleImplicitLod OpImageSparseSampleExplicitLod OpImageSparseSampleDrefImplicitLod OpImageSparseSampleDrefExplicitLod OpImageSparseSampleProjImplicitLod OpImageSparseSampleProjExplicitLod OpImageSparseSampleProjDrefImplicitLod OpImageSparseSampleProjDrefExplicitLod OpImageSparseFetch OpImageSparseGather OpImageSparseDrefGather OpImageSparseTexelsResident OpNoLine OpAtomicFlagTestAndSet OpAtomicFlagClear OpImageSparseRead OpSizeOf OpTypePipeStorage OpConstantPipeStorage OpCreatePipeFromPipeStorage OpGetKernelLocalSizeForSubgroupCount OpGetKernelMaxNumSubgroups OpTypeNamedBarrier OpNamedBarrierInitialize OpMemoryNamedBarrier OpModuleProcessed OpExecutionModeId OpDecorateId OpSubgroupBallotKHR OpSubgroupFirstInvocationKHR OpSubgroupAllKHR OpSubgroupAnyKHR OpSubgroupAllEqualKHR OpSubgroupReadInvocationKHR OpGroupIAddNonUniformAMD OpGroupFAddNonUniformAMD OpGroupFMinNonUniformAMD OpGroupUMinNonUniformAMD OpGroupSMinNonUniformAMD OpGroupFMaxNonUniformAMD OpGroupUMaxNonUniformAMD OpGroupSMaxNonUniformAMD OpFragmentMaskFetchAMD OpFragmentFetchAMD OpSubgroupShuffleINTEL OpSubgroupShuffleDownINTEL OpSubgroupShuffleUpINTEL OpSubgroupShuffleXorINTEL OpSubgroupBlockReadINTEL OpSubgroupBlockWriteINTEL OpSubgroupImageBlockReadINTEL OpSubgroupImageBlockWriteINTEL OpDecorateStringGOOGLE OpMemberDecorateStringGOOGLE OpMax</Keywords>
+            <Keywords name="Keywords2">%</Keywords>
+            <Keywords name="Keywords3">RelaxedPrecision SpecId Block BufferBlock RowMajor ColMajor ArrayStride MatrixStride GLSLShared GLSLPacked CPacked BuiltIn NoPerspective Flat Patch Centroid Sample Invariant Restrict Aliased Volatile Constant Coherent NonWritable NonReadable Uniform SaturatedConversion Stream Location Component Index Binding DescriptorSet Offset XfbBuffer XfbStride FuncParamAttr FPRoundingMode FPFastMathMode LinkageAttributes NoContraction InputAttachmentIndex Alignment MaxByteOffset AlignmentId MaxByteOffsetId ExplicitInterpAMD OverrideCoverageNV PassthroughNV ViewportRelativeNV SecondaryViewportRelativeNV HlslCounterBufferGOOGLE HlslSemanticGOOGLE Max </Keywords>
+            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="800000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="808080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000A0" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="800080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="004000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF0000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="400080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
